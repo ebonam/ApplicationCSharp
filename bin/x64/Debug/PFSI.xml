@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PFSI</name>
+    </assembly>
+    <members>
+        <member name="T:WpfApplication3.App">
+            <summary>
+            Logique d'interaction pour App.xaml
+            </summary>
+        </member>
+        <member name="T:ApplicatioStagez.authentification">
+            <summary>
+            Logique d'interaction pour authentification.xaml
+            </summary>
+            <summary>
+            authentification
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.authentification.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ApplicatioStagez.InfoSystem">
+            <summary>
+            retourne des information systemes
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.#ctor">
+            <summary>
+            Constructeur par defzult
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.test">
+            <summary>
+            Fct de test
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.getOperatingSystemInfo">
+            <summary>
+            Retourne l'os + diverse infos
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.ram">
+            <summary>
+            Affiche la ram toutes infos memoire, type, vitesse
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.init_Counter">
+             <summary>
+            initialiser les compteur 
+             </summary>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.tour">
+            <summary>
+            Fct de test pour les compteurs
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.getCurrentCpuUsage">
+            <summary>
+            renvoi le pourcentage du cpu
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.GetInstance">
+            <summary>
+            Singleton
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApplicatioStagez.InfoSystem.getCurrentRamUsage">
+            <summary>
+            renvoi le pourcentage de Ram
+            </summary>
+            <returns>Free ram(mb)</returns>
+        </member>
+        <member name="P:ApplicatioStagez.InfoSystem.proco">
+            <summary>
+            Stock le nom du processeur 
+            voir pour l'utilisation processeur
+            </summary>   
+        </member>
+        <member name="T:ApplicatioStagez.Password">
+            <summary>
+            Logique d'interaction pour Password.xaml
+            </summary>
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.Password.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.ReferenceWeb.PasswordTest.Infor">
+            <summary>
+            Methode de parse pour separer les differentes cartes 
+            
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.Script.Ipconfig.displayIp">
+            <summary>
+            Fonction d'affichage pour tester
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.Script.Ipconfig.ListIpconfig">
+            <summary>
+            Methode de parse pour separer les differentes cartes 
+            
+            </summary>
+        </member>
+        <member name="T:ApplicatioStagez.UserControl2">
+            <summary>
+            Logique d'interaction pour UserControl2.xaml
+            </summary>
+            <summary>
+            UserControl2
+            </summary>
+        </member>
+        <member name="M:ApplicatioStagez.UserControl2.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ApplicationStage.ClassMain">
+            <summary>
+            Classe Principale
+            </summary>
+        </member>
+        <member name="M:ApplicationStage.ClassMain.Main(System.String[])">
+            <summary>
+            Point d'entree du programme
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:Script.InterfaceCommande">
+            <summary>
+            Interface pour regrouper les scripts
+            </summary>
+        </member>
+        <member name="M:Script.InterfaceCommande.getCmd">
+            <summary>
+            Methode de l'interface
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Script.ScriptStart">
+            <summary>
+             script d'ouverture de programme
+            </summary>
+        </member>
+        <member name="M:Script.ScriptStart.#ctor">
+            <summary>
+             Constructeur avec le chemin du programme
+            </summary>
+        </member>
+        <member name="P:Script.ScriptSup.path">
+            <summary>
+            Path du fichier a vider 
+            </summary>
+        </member>
+        <member name="P:Script.ScriptSup.cmd">
+            <summary>
+            Ligne de commande
+            </summary>
+        </member>
+        <member name="M:Script.ScriptSup.#ctor">
+            <summary>
+            Constructeur par default
+            </summary>
+        </member>
+        <member name="M:Script.ScriptSup.getCmd">
+            <summary>
+            Cree la ligne de commande
+            </summary>
+            <returns>la ligne de commande</returns> 
+        </member>
+        <member name="M:Script.ScriptSup.getTMP">
+            <summary>
+            recup le repertoire %tmp%
+            </summary>
+        </member>
+        <member name="T:ApplicationStagez.App">
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:ApplicationStagez.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
